@@ -35,7 +35,7 @@ pipeline {
 
         stage('Build and tag') {
             steps {
-                sh "docker build -t manojkrishnappa/webapp:1 ."
+                sh "docker build -t manojkrishnappa/webapp:2 ."
             }
         }
 
